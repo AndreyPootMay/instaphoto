@@ -21,7 +21,6 @@
 	</nav>
 	<main>
 		<div class="container" align="center" style="margin-top: 150px">
-		<h3>Página de inicio</h3>
 			<div class="row center-div">
 			    <div class="col s12">
 			      <div class="card">
