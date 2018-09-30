@@ -20,8 +20,30 @@
 		</div>
 	</nav>
 	<main>
-
+		<div class="container" align="center" style="margin-top: 150px">
+		<h3>Página de inicio</h3>
+			<div class="row center-div">
+			    <div class="col s12">
+			      <div class="card">
+			      	<div class="row">
+			      		<br>
+			      		<img src="<?= ROUTEPUBLIC ?>/public/img/logo.jpg" alt="" width="200">
+			      	</div>
+			        <div class="card-content black-text">
+						<form action="<?= ROUTEPUBLIC ?>/users/loginback" method="post" autocomplete="off">
+							<input type="email" placeholder="Correo electrónico" autofocus name="email" required>
+							<input type="password" placeholder="Clave" name="pass" required>
+							<button class="btn waves-effect waves-light black" type="submit" name="action">Entrar <i class="material-icons">send</i></button>
+						</form>
+						<br>
+						<br>
+						<br>
+						2018 Copyright InstaPhoto &copy;
+			        </div>
+			      </div>
+			    </div>
+  			</div>
+		</div>
 	</main>
-	<h1>Página de inicio</h1>
 </body>
 </html>
